@@ -30,7 +30,6 @@ def uniform_cost_search(graph, start, goal):
                 path[neighbor] = node
 
     return None, float("inf")  # Trả về None nếu không có đường đi tới đích
-
 # Ví dụ đồ thị với các đỉnh và trọng số
 graph = {
     'A': {'B': 4, 'C': 2},
